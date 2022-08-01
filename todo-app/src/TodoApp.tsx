@@ -2,7 +2,7 @@ import classNames from 'classnames';
 import { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useAppDispatch, useAppSelector } from './hooks/hooks';
-import { getUserById, USER_ID } from './api/users';
+import { addUser, getUserById, USER_ID } from './api/users';
 import NewTodoForm from './components/NewTodoForm';
 
 import {
